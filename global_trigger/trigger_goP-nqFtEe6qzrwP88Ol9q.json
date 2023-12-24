@@ -3677,6 +3677,410 @@
             "trigger_name": "up", 
             "valid": true
         }, 
+        "1711767634": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100148, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "SFX_ENTITY", 
+                                        "fire_ball"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 4
+                        }, 
+                        {
+                            "arg_type": 100148, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100066, 
+                                    "args_list": [
+                                        100309
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_PLAYER_POINTING_POS"
+                                }
+                            ], 
+                            "op_arg": [
+                                null, 
+                                null, 
+                                null, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        999999.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false, 
+                                false, 
+                                true, 
+                                false
+                            ], 
+                            "sub_type": "CREATE_SFX_ON_POINT"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1711767634000010, 
+                    "enable": false
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100077, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PROJECTILE_ENTITY", 
+                                        "fire_"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100077, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100062, 
+                                    "args_list": [
+                                        134270783
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_PLAYER_POINTING_POS"
+                                }, 
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [
+                                null, 
+                                null, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        9999.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false, 
+                                true, 
+                                false, 
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "CREATE_PROJECTILE_NEW"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1711767634000037, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "RUN_LOOP_TIMER_BY_FRAME_NO_SAVE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "des", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100077, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "PROJECTILE_ENTITY", 
+                                                                        "fire_"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": "VARIABLE"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "PROJECTILE_ENTITY_POINT"
+                                                }, 
+                                                {
+                                                    "arg_type": 100225, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100077, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "PROJECTILE_ENTITY", 
+                                                                                "fire_"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "VARIABLE"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "PROJECTILE_ENTITY_POINT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [
+                                                                        1
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_PLAYER_POINTING_POS"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_POINTS_ANGLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        20.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1711767634000029, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_SFX_POSITION", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100148, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "SFX_ENTITY", 
+                                                        "fire_ball"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 4
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "des", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 19
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1711767634000022, 
+                                    "enable": false, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "SET_PROJECTILE_POSITION", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100077, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PROJECTILE_ENTITY", 
+                                                        "fire_"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "des", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 19
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1711767634000041, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1711767634000014, 
+                    "enable": true, 
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                33
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1711767634000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "goP-nqFtEe6qzrwP88Ol9q", 
+            "p_trigger_id": null, 
+            "trigger_id": 1711767634, 
+            "trigger_name": "fire_ball", 
+            "valid": true
+        }, 
         "1931366466": {
             "action": [
                 {
@@ -4020,6 +4424,13 @@
                 "items": [
                     212664401, 
                     "rotate_down_up"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1711767634, 
+                    "fire_ball"
                 ]
             }
         ], 

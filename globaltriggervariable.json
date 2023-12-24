@@ -613,6 +613,23 @@
                 "dis": 0
             }
         }, 
+        "1711767634": {
+            "variable_dict": {
+                "POINT": {
+                    "des": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "variable_length_dict": {
+                "des": 0
+            }
+        }, 
         "1724731455": {
             "variable_dict": {
                 "INTEGER": {
@@ -832,7 +849,11 @@
                 ]
             }
         }, 
+        "PROJECTILE_ENTITY": {
+            "fire_": 0
+        }, 
         "SFX_ENTITY": {
+            "fire_ball": 0, 
             "temp": 0
         }, 
         "TABLE": {
@@ -941,6 +962,20 @@
                 "building", 
                 "building"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "fire_ball", 
+                "fire_ball"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "fire_", 
+                "fire_"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -953,6 +988,8 @@
         "bridge_count": 0, 
         "building": 0, 
         "create_temp": 0, 
+        "fire_": 0, 
+        "fire_ball": 0, 
         "original": 0, 
         "rotate": 0, 
         "temp": 0, 
