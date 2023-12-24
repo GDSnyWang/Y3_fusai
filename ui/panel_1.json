@@ -1,0 +1,55 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "alignment": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    8
+                ]
+            }, 
+            "children": [], 
+            "event_list": [], 
+            "name": "label_2", 
+            "over_pattern": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    997.0, 
+                    721.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    51.927083333333336, 
+                    66.75925925925927
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    312.0, 
+                    100
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u6309\u4e0b\u7a7a\u683c\u8df3\u8dc3", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "79b6ba31-9afe-41db-84b7-d645b4271f85"
+        }
+    ], 
+    "name": "panel_1", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "5b94b64d-8b36-4214-8851-5135c00fd5df", 
+    "visible": false, 
+    "zorder": 400
+}
