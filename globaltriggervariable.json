@@ -20,6 +20,16 @@
                 "unit": 0
             }
         }, 
+        "49418324": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "72462362": {
             "variable_dict": {
                 "INTEGER": {
@@ -449,6 +459,16 @@
                 "unit": 0
             }
         }, 
+        "1414606937": {
+            "variable_dict": {
+                "MOVER_ENTITY": {
+                    "move": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "move": 0
+            }
+        }, 
         "1425182768": {
             "variable_dict": {
                 "INTEGER": {
@@ -745,6 +765,28 @@
                 "y": 0
             }
         }, 
+        "1836290134": {
+            "variable_dict": {
+                "INTEGER": {}, 
+                "NEW_TIMER": {
+                    "temp": -1
+                }, 
+                "POINT": {
+                    "temp_point": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0, 
+                "temp_point": 0
+            }
+        }, 
         "1872433179": {
             "variable_dict": {
                 "ITEM_ENTITY": {
@@ -812,6 +854,26 @@
                 "t": 0, 
                 "unit": 0
             }
+        }, 
+        "2098737236": {
+            "variable_dict": {
+                "FLOAT": {
+                    "size": 0.0
+                }, 
+                "INTEGER": {
+                    "count": 0
+                }, 
+                "NEW_TIMER": {
+                    "temp": -1, 
+                    "temp2": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "count": 0, 
+                "size": 0, 
+                "temp": 0, 
+                "temp2": 0
+            }
         }
     }, 
     "variable_comments": {}, 
@@ -820,7 +882,8 @@
             "building": false
         }, 
         "DESTRUCTIBLE_ENTITY": {
-            "bridge": 0
+            "bridge": 0, 
+            "plant_temp": 0
         }, 
         "FLOAT": {
             "bias": 0.0, 
@@ -828,14 +891,20 @@
         }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
+            "battery": 5, 
+            "lamp_now": 0, 
             "time_count": 0
         }, 
         "ITEM_ENTITY": {
             "temp_thing": 0
         }, 
         "NEW_TIMER": {
+            "battery_get": -1, 
             "bridge_count": -1, 
             "create_temp": -1, 
+            "deadly_count": -1, 
+            "lamp_stay": -1, 
+            "move_plant_count": -1, 
             "rotate": -1
         }, 
         "PLAYER": {}, 
@@ -850,7 +919,13 @@
             }
         }, 
         "PROJECTILE_ENTITY": {
-            "fire_": 0
+            "confuse_": 0, 
+            "fire_": 0, 
+            "lmap_": 0, 
+            "shoot_ball": 0
+        }, 
+        "ROUND_AREA": {
+            "confuse_area": 0
         }, 
         "SFX_ENTITY": {
             "fire_ball": 0, 
@@ -976,22 +1051,110 @@
                 "fire_", 
                 "fire_"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "confuse_", 
+                "confuse_"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "confuse_area", 
+                "confuse_area"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "lmap_", 
+                "lmap_"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "lamp_stay", 
+                "lamp_stay"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "lamp_now", 
+                "lamp_now"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "shoot_ball", 
+                "shoot_ball"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "battery", 
+                "battery"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "battery_get", 
+                "battery_get"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "deadly_count", 
+                "deadly_count"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "move_plant_count", 
+                "move_plant_count"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "plant_temp", 
+                "plant_temp"
+            ]
         }
     ], 
     "variable_length_dict": {
         "GLOBAL_BAG_MAX_NUM": 0, 
         "Player_Unit": 0, 
         "UI_Manager": 0, 
+        "battery": 0, 
+        "battery_get": 0, 
         "bias": 0, 
         "bias_angle": 0, 
         "bridge": 0, 
         "bridge_count": 0, 
         "building": 0, 
+        "confuse_": 0, 
+        "confuse_area": 0, 
         "create_temp": 0, 
+        "deadly_count": 0, 
         "fire_": 0, 
         "fire_ball": 0, 
+        "lamp_now": 0, 
+        "lamp_stay": 0, 
+        "lmap_": 0, 
+        "move_plant_count": 0, 
         "original": 0, 
+        "plant_temp": 0, 
         "rotate": 0, 
+        "shoot_ball": 0, 
         "temp": 0, 
         "temp_thing": 0, 
         "time_count": 0

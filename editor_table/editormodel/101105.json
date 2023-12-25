@@ -1,0 +1,37 @@
+{
+    "describe": 975718398, 
+    "editor_res": false, 
+    "key": 101105, 
+    "map_name": "H12\u5929\u4e0bX\u5929\u4e0b", 
+    "model_id": 101105, 
+    "name": -456515177, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "code_Cartoon", 
+            "code_Chinese style", 
+            "code_Xianxia", 
+            "code_Red", 
+            "code_Temperate zone"
+        ]
+    }, 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.8, 
+            1.8
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/101105", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "release_hide": false, 
+    "res_identify": "all", 
+    "select_effect_scale": 0.5, 
+    "size": 0.1, 
+    "socket_info": {}, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_101105"
+}

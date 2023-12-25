@@ -1,0 +1,105 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "alignment": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    8
+                ]
+            }, 
+            "children": [], 
+            "event_list": [], 
+            "font": {
+                "__tuple__": true, 
+                "items": [
+                    "MSYH", 
+                    30
+                ]
+            }, 
+            "name": "label_3", 
+            "over_pattern": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    900.0, 
+                    800.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    46.875, 
+                    74.07407407407408
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    200.0, 
+                    100.0
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u7535\u6c60\u5269\u4f59\uff1a", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "b29f3ccb-f887-4b59-86a9-80cd4bd6b52c"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "font": {
+                "__tuple__": true, 
+                "items": [
+                    "MSYH", 
+                    30
+                ]
+            }, 
+            "name": "number", 
+            "over_pattern": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1080.0, 
+                    800.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    56.25, 
+                    74.07407407407408
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    200.0, 
+                    100.0
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "5", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "7faa4263-df81-4bb5-9048-6f5267c7daf9"
+        }
+    ], 
+    "name": "battery", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "0f2cb41e-672e-4e72-9cb6-e152bb61ae8b", 
+    "visible": true, 
+    "zorder": 400
+}

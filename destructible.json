@@ -1,3 +1,329 @@
 {
-    "destructible": {}
+    "destructible": {
+        "14": {
+            "components": {
+                "attr": {}, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "height_box": {
+                    "alive_height_box_data": null, 
+                    "dead_height_box_data": null, 
+                    "heightbox_deserialize_dirty": false
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                1, 
+                                211902464
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                12, 
+                                10137600
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "enable_occlusion_perspective": false, 
+            "entity_id": 134277451, 
+            "name": "\u8def\u969c", 
+            "type": 256, 
+            "unit_id": 14
+        }, 
+        "15": {
+            "components": {
+                "attr": {}, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "height_box": {
+                    "alive_height_box_data": null, 
+                    "dead_height_box_data": null, 
+                    "heightbox_deserialize_dirty": false
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                6, 
+                                1106071552
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                11, 
+                                4214247424
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "enable_occlusion_perspective": false, 
+            "entity_id": 134277451, 
+            "name": "\u8def\u969c", 
+            "type": 256, 
+            "unit_id": 15
+        }, 
+        "16": {
+            "components": {
+                "attr": {}, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "height_box": {
+                    "alive_height_box_data": null, 
+                    "dead_height_box_data": null, 
+                    "heightbox_deserialize_dirty": false
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                11, 
+                                2255364096
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                12, 
+                                568848384
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "enable_occlusion_perspective": false, 
+            "entity_id": 134277451, 
+            "name": "\u8def\u969c", 
+            "type": 256, 
+            "unit_id": 16
+        }, 
+        "17": {
+            "components": {
+                "attr": {}, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "height_box": {
+                    "alive_height_box_data": null, 
+                    "dead_height_box_data": null, 
+                    "heightbox_deserialize_dirty": false
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                16, 
+                                2097463296
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                12, 
+                                1804378112
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "enable_occlusion_perspective": false, 
+            "entity_id": 134277451, 
+            "name": "\u8def\u969c", 
+            "type": 256, 
+            "unit_id": 17
+        }, 
+        "25": {
+            "components": {
+                "attr": {}, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "height_box": {
+                    "alive_height_box_data": null, 
+                    "dead_height_box_data": null, 
+                    "heightbox_deserialize_dirty": false
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -30, 
+                                675856384
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                16, 
+                                13778944
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "enable_occlusion_perspective": false, 
+            "entity_id": 134254001, 
+            "name": "tree", 
+            "type": 256, 
+            "unit_id": 25
+        }
+    }
 }

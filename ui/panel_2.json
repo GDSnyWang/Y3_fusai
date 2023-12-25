@@ -1,0 +1,1920 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 100070, 
+                    "name": "skill_icon_img", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "165e29a0-3e8e-49a7-884a-1c30d809146c", 
+                    "visible": false
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 903689, 
+                    "name": "skill_frame_img", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "4a092461-ced1-4593-8ea0-fbb1b7b0867a"
+                }, 
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "bg_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            255, 
+                            255, 
+                            255, 
+                            0
+                        ]
+                    }, 
+                    "bg_image": 999, 
+                    "children": [], 
+                    "current_value": 0.0, 
+                    "event_list": [], 
+                    "image": 903688, 
+                    "name": "skill_cd_progress", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "progress_type": 0, 
+                    "reverse": true, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 5, 
+                    "uid": "63437706-770e-45f4-b28d-aa933eff2703"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "bold": true, 
+                    "children": [], 
+                    "event_list": [], 
+                    "label_effect": {
+                        "__tuple__": true, 
+                        "items": [
+                            true, 
+                            false, 
+                            false, 
+                            false
+                        ]
+                    }, 
+                    "name": "skill_cd_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "10", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "ddb46ef3-9919-4a19-b9de-9670fa423682", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        71.0, 
+                        5.0, 
+                        83.0, 
+                        -7.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_stack_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.0, 
+                            17.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.0, 
+                            17.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            24.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "5", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "1667ed43-2d62-4c3e-a1b5-d5da1835bc19", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        -55.0, 
+                        97.0, 
+                        19.0, 
+                        23.0
+                    ], 
+                    "children": [], 
+                    "disabled_picture": null, 
+                    "event_list": [], 
+                    "name": "skill_upgrade_btn", 
+                    "normal_picture": 903685, 
+                    "normal_text": {
+                        "__tuple__": true, 
+                        "items": [
+                            " ", 
+                            false
+                        ]
+                    }, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            135.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            135.0
+                        ]
+                    }, 
+                    "press_picture": 100351, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            41.94
+                        ]
+                    }, 
+                    "suspend_picture": 100350, 
+                    "type": 1, 
+                    "uid": "4ffb6ff8-7e96-41ba-9c4a-ef2496fc455a", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        71.0, 
+                        5.0, 
+                        4.0, 
+                        72.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_shortcut_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            24.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "63284531-a6fc-4aad-b9d1-afae79ed71c3"
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        true, 
+                        true, 
+                        true, 
+                        100.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_level_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            88.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            88.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "b780c7f9-ff68-45d6-af51-2fcd167d2ba4"
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        0.0, 
+                        0.0, 
+                        1.0, 
+                        -1.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 903686, 
+                    "name": "skill_consume_mask_img", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "27b19ff2-fe37-4b8a-b579-150da3763e03", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        0.0, 
+                        0.0, 
+                        1.0, 
+                        -1.0
+                    ], 
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 903690, 
+                            "name": "skill_frame_img", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    50.0, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    100.0, 
+                                    100.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "6d8d8664-16e0-4eff-ba9b-6aeea9241ebc"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "image": 903687, 
+                    "name": "skill_disable_img", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "6c3b1cf8-ef96-4342-8453-43f7c58223da", 
+                    "visible": false
+                }
+            ], 
+            "event_list": [], 
+            "name": "gogogo", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1178.0, 
+                    698.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    61.354166666666664, 
+                    64.62962962962962
+                ]
+            }, 
+            "short_cut": 18, 
+            "skill_cd_label": "ddb46ef3-9919-4a19-b9de-9670fa423682", 
+            "skill_cd_progress": "63437706-770e-45f4-b28d-aa933eff2703", 
+            "skill_consume_mask_img": "27b19ff2-fe37-4b8a-b579-150da3763e03", 
+            "skill_disable_img": "6c3b1cf8-ef96-4342-8453-43f7c58223da", 
+            "skill_frame_img": "4a092461-ced1-4593-8ea0-fbb1b7b0867a", 
+            "skill_icon_img": "165e29a0-3e8e-49a7-884a-1c30d809146c", 
+            "skill_level_label": "b780c7f9-ff68-45d6-af51-2fcd167d2ba4", 
+            "skill_shortcut_label": "63284531-a6fc-4aad-b9d1-afae79ed71c3", 
+            "skill_stack_label": "1667ed43-2d62-4c3e-a1b5-d5da1835bc19", 
+            "skill_type": 3, 
+            "skill_upgrade_btn": "4ffb6ff8-7e96-41ba-9c4a-ef2496fc455a", 
+            "slot_id": 1, 
+            "swallow_touches": true, 
+            "type": 17, 
+            "uid": "5b50f579-b08e-4fa0-a826-f383bec407fc"
+        }, 
+        {
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 100070, 
+                    "name": "skill_icon_img", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "e1e87906-10e4-4b86-b70a-72088e60ccf6", 
+                    "visible": false
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 903689, 
+                    "name": "skill_frame_img", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "b4aea5a9-88b5-458c-945c-c69dda960bdb"
+                }, 
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "bg_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            255, 
+                            255, 
+                            255, 
+                            0
+                        ]
+                    }, 
+                    "bg_image": 999, 
+                    "children": [], 
+                    "current_value": 0.0, 
+                    "event_list": [], 
+                    "image": 903688, 
+                    "name": "skill_cd_progress", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "progress_type": 0, 
+                    "reverse": true, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 5, 
+                    "uid": "c874cff1-78a3-4dba-9a9b-00eae1aa5380"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "bold": true, 
+                    "children": [], 
+                    "event_list": [], 
+                    "label_effect": {
+                        "__tuple__": true, 
+                        "items": [
+                            true, 
+                            false, 
+                            false, 
+                            false
+                        ]
+                    }, 
+                    "name": "skill_cd_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "10", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "9f3782c2-dacd-4477-b685-a8a9520498ff", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        71.0, 
+                        5.0, 
+                        83.0, 
+                        -7.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_stack_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.0, 
+                            17.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.0, 
+                            17.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            24.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "5", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "c622a468-e95f-4e98-a281-c617d9dd5bc8", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        -55.0, 
+                        97.0, 
+                        19.0, 
+                        23.0
+                    ], 
+                    "children": [], 
+                    "disabled_picture": null, 
+                    "event_list": [], 
+                    "name": "skill_upgrade_btn", 
+                    "normal_picture": 903685, 
+                    "normal_text": {
+                        "__tuple__": true, 
+                        "items": [
+                            " ", 
+                            false
+                        ]
+                    }, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            135.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            135.0
+                        ]
+                    }, 
+                    "press_picture": 100351, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            41.94
+                        ]
+                    }, 
+                    "suspend_picture": 100350, 
+                    "type": 1, 
+                    "uid": "b5b84df5-eec1-48a9-a5ef-8e42792ec1f2", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        71.0, 
+                        5.0, 
+                        4.0, 
+                        72.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_shortcut_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            24.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "00a56c09-9ce1-4e80-80d0-04a1b236fecc"
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        true, 
+                        true, 
+                        true, 
+                        100.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_level_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            88.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            88.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "f583e5e3-bd26-4075-82e0-d32cee6d00c2"
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        0.0, 
+                        0.0, 
+                        1.0, 
+                        -1.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 903686, 
+                    "name": "skill_consume_mask_img", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "30aa8ca0-2617-4d8d-81cc-b83d9e0661f8", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        0.0, 
+                        0.0, 
+                        1.0, 
+                        -1.0
+                    ], 
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 903690, 
+                            "name": "skill_frame_img", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    50.0, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    100.0, 
+                                    100.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "f97f32a4-73b8-4b5f-9e7a-b296e887fc9f"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "image": 903687, 
+                    "name": "skill_disable_img", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "ada5b9f7-3cd3-496a-9806-747ed4297f64", 
+                    "visible": false
+                }
+            ], 
+            "event_list": [], 
+            "name": "gogogo2", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1367.94384765625, 
+                    697.9998779296875
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    71.24707539876302, 
+                    64.62961832682291
+                ]
+            }, 
+            "short_cut": 19, 
+            "skill_cd_label": "9f3782c2-dacd-4477-b685-a8a9520498ff", 
+            "skill_cd_progress": "c874cff1-78a3-4dba-9a9b-00eae1aa5380", 
+            "skill_consume_mask_img": "30aa8ca0-2617-4d8d-81cc-b83d9e0661f8", 
+            "skill_disable_img": "ada5b9f7-3cd3-496a-9806-747ed4297f64", 
+            "skill_frame_img": "b4aea5a9-88b5-458c-945c-c69dda960bdb", 
+            "skill_icon_img": "e1e87906-10e4-4b86-b70a-72088e60ccf6", 
+            "skill_level_label": "f583e5e3-bd26-4075-82e0-d32cee6d00c2", 
+            "skill_shortcut_label": "00a56c09-9ce1-4e80-80d0-04a1b236fecc", 
+            "skill_stack_label": "c622a468-e95f-4e98-a281-c617d9dd5bc8", 
+            "skill_type": 3, 
+            "skill_upgrade_btn": "b5b84df5-eec1-48a9-a5ef-8e42792ec1f2", 
+            "slot_id": 1, 
+            "swallow_touches": true, 
+            "type": 17, 
+            "uid": "f874c4c7-f8d4-4daf-a23e-5bc700f4f8fa"
+        }, 
+        {
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 100070, 
+                    "name": "skill_icon_img", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "dc0c1439-8577-4f8d-b160-32d3e3063f4d", 
+                    "visible": false
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 903689, 
+                    "name": "skill_frame_img", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "b046590d-abb4-4bae-9fed-0d3500267cf8"
+                }, 
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "bg_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            255, 
+                            255, 
+                            255, 
+                            0
+                        ]
+                    }, 
+                    "bg_image": 999, 
+                    "children": [], 
+                    "current_value": 0.0, 
+                    "event_list": [], 
+                    "image": 903688, 
+                    "name": "skill_cd_progress", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "progress_type": 0, 
+                    "reverse": true, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 5, 
+                    "uid": "8407b887-4f18-4d99-9471-dae3b9d46428"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "bold": true, 
+                    "children": [], 
+                    "event_list": [], 
+                    "label_effect": {
+                        "__tuple__": true, 
+                        "items": [
+                            true, 
+                            false, 
+                            false, 
+                            false
+                        ]
+                    }, 
+                    "name": "skill_cd_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "10", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "ad8b3ff7-029a-4ca0-b900-da1464310c78", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        71.0, 
+                        5.0, 
+                        83.0, 
+                        -7.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_stack_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.0, 
+                            17.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.0, 
+                            17.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            24.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "5", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "70aa7e01-c87d-42c1-aa3f-ed031cf15487", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        -55.0, 
+                        97.0, 
+                        19.0, 
+                        23.0
+                    ], 
+                    "children": [], 
+                    "disabled_picture": null, 
+                    "event_list": [], 
+                    "name": "skill_upgrade_btn", 
+                    "normal_picture": 903685, 
+                    "normal_text": {
+                        "__tuple__": true, 
+                        "items": [
+                            " ", 
+                            false
+                        ]
+                    }, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            135.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            135.0
+                        ]
+                    }, 
+                    "press_picture": 100351, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            41.94
+                        ]
+                    }, 
+                    "suspend_picture": 100350, 
+                    "type": 1, 
+                    "uid": "1a653fc5-2218-4124-a468-e65328f2a307", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        71.0, 
+                        5.0, 
+                        4.0, 
+                        72.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_shortcut_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            24.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "d44bb455-74ba-4f82-9617-194ab7b957a4"
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        true, 
+                        true, 
+                        true, 
+                        100.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_level_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            88.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            88.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "ce8f9ae2-2faa-4b5f-9058-b9dd293f42b8"
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        0.0, 
+                        0.0, 
+                        1.0, 
+                        -1.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 903686, 
+                    "name": "skill_consume_mask_img", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "0b854749-ff5a-4904-9aab-b0cba37e694c", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        0.0, 
+                        0.0, 
+                        1.0, 
+                        -1.0
+                    ], 
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 903690, 
+                            "name": "skill_frame_img", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    50.0, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    100.0, 
+                                    100.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "44b4a6d0-cad8-4766-b463-572e0a1cdf5a"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "image": 903687, 
+                    "name": "skill_disable_img", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "2eb2e269-0c73-4a15-9aa3-f98a4746d6e3", 
+                    "visible": false
+                }
+            ], 
+            "event_list": [], 
+            "name": "gogogo3", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1588.0, 
+                    698.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    82.70833333333333, 
+                    64.62962962962962
+                ]
+            }, 
+            "short_cut": 20, 
+            "skill_cd_label": "ad8b3ff7-029a-4ca0-b900-da1464310c78", 
+            "skill_cd_progress": "8407b887-4f18-4d99-9471-dae3b9d46428", 
+            "skill_consume_mask_img": "0b854749-ff5a-4904-9aab-b0cba37e694c", 
+            "skill_disable_img": "2eb2e269-0c73-4a15-9aa3-f98a4746d6e3", 
+            "skill_frame_img": "b046590d-abb4-4bae-9fed-0d3500267cf8", 
+            "skill_icon_img": "dc0c1439-8577-4f8d-b160-32d3e3063f4d", 
+            "skill_level_label": "ce8f9ae2-2faa-4b5f-9058-b9dd293f42b8", 
+            "skill_shortcut_label": "d44bb455-74ba-4f82-9617-194ab7b957a4", 
+            "skill_stack_label": "70aa7e01-c87d-42c1-aa3f-ed031cf15487", 
+            "skill_type": 3, 
+            "skill_upgrade_btn": "1a653fc5-2218-4124-a468-e65328f2a307", 
+            "slot_id": 1, 
+            "swallow_touches": true, 
+            "type": 17, 
+            "uid": "e13b23ea-df5d-4732-b041-5f0b5f12e894"
+        }, 
+        {
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 100070, 
+                    "name": "skill_icon_img", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "9e5bdffa-7621-4d5e-96b5-cbd9b79d91ce", 
+                    "visible": false
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 903689, 
+                    "name": "skill_frame_img", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "2112a60c-131f-4143-96dc-03c46dd58b03"
+                }, 
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "bg_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            255, 
+                            255, 
+                            255, 
+                            0
+                        ]
+                    }, 
+                    "bg_image": 999, 
+                    "children": [], 
+                    "current_value": 0.0, 
+                    "event_list": [], 
+                    "image": 903688, 
+                    "name": "skill_cd_progress", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "progress_type": 0, 
+                    "reverse": true, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 5, 
+                    "uid": "bd81fc5c-135b-4c6c-bc2c-9486fb884f9a"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "bold": true, 
+                    "children": [], 
+                    "event_list": [], 
+                    "label_effect": {
+                        "__tuple__": true, 
+                        "items": [
+                            true, 
+                            false, 
+                            false, 
+                            false
+                        ]
+                    }, 
+                    "name": "skill_cd_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "10", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "bce8392d-75eb-4291-a2a2-8cbc5f05921d", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        71.0, 
+                        5.0, 
+                        83.0, 
+                        -7.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_stack_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.0, 
+                            17.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.0, 
+                            17.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            24.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "5", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "9de633cc-85d7-45ca-9286-7e4878775a7f", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        -55.0, 
+                        97.0, 
+                        19.0, 
+                        23.0
+                    ], 
+                    "children": [], 
+                    "disabled_picture": null, 
+                    "event_list": [], 
+                    "name": "skill_upgrade_btn", 
+                    "normal_picture": 903685, 
+                    "normal_text": {
+                        "__tuple__": true, 
+                        "items": [
+                            " ", 
+                            false
+                        ]
+                    }, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            135.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            135.0
+                        ]
+                    }, 
+                    "press_picture": 100351, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            41.94
+                        ]
+                    }, 
+                    "suspend_picture": 100350, 
+                    "type": 1, 
+                    "uid": "b9514c0b-1827-45ed-a061-4c7a44463691", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        71.0, 
+                        5.0, 
+                        4.0, 
+                        72.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_shortcut_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            24.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "0e11fedd-e840-4266-95df-e00e9258c5c0"
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        true, 
+                        true, 
+                        true, 
+                        100.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            24
+                        ]
+                    }, 
+                    "name": "skill_level_label", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            88.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            88.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            24.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "32518a9f-35de-4c35-bebb-beeadcc4ab0c"
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        0.0, 
+                        0.0, 
+                        1.0, 
+                        -1.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 903686, 
+                    "name": "skill_consume_mask_img", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "f5e94536-fabe-483d-aa9b-19806b8c2226", 
+                    "visible": false
+                }, 
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        0.0, 
+                        0.0, 
+                        1.0, 
+                        -1.0
+                    ], 
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 903690, 
+                            "name": "skill_frame_img", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    50.0, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    100.0, 
+                                    100.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "45187398-57c8-43b7-bac1-5d70928c3dd4"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "image": 903687, 
+                    "name": "skill_disable_img", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            51.0, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            100.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "4537d0b0-27a6-4aed-a507-52cdaa707a6b", 
+                    "visible": false
+                }
+            ], 
+            "event_list": [], 
+            "name": "gogogo4", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1800.0, 
+                    698.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    93.75, 
+                    64.62962962962962
+                ]
+            }, 
+            "short_cut": 21, 
+            "skill_cd_label": "bce8392d-75eb-4291-a2a2-8cbc5f05921d", 
+            "skill_cd_progress": "bd81fc5c-135b-4c6c-bc2c-9486fb884f9a", 
+            "skill_consume_mask_img": "f5e94536-fabe-483d-aa9b-19806b8c2226", 
+            "skill_disable_img": "4537d0b0-27a6-4aed-a507-52cdaa707a6b", 
+            "skill_frame_img": "2112a60c-131f-4143-96dc-03c46dd58b03", 
+            "skill_icon_img": "9e5bdffa-7621-4d5e-96b5-cbd9b79d91ce", 
+            "skill_level_label": "32518a9f-35de-4c35-bebb-beeadcc4ab0c", 
+            "skill_shortcut_label": "0e11fedd-e840-4266-95df-e00e9258c5c0", 
+            "skill_stack_label": "9de633cc-85d7-45ca-9286-7e4878775a7f", 
+            "skill_type": 3, 
+            "skill_upgrade_btn": "b9514c0b-1827-45ed-a061-4c7a44463691", 
+            "slot_id": 1, 
+            "swallow_touches": true, 
+            "type": 17, 
+            "uid": "f377f24d-aa94-4369-a56a-1f00dd804470"
+        }
+    ], 
+    "name": "panel_2", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "37758272-e34c-41ed-83c5-7617ddd8f930", 
+    "visible": false, 
+    "zorder": 400
+}

@@ -1,0 +1,224 @@
+{
+    "local_variable": {}, 
+    "trigger_dict": {
+        "1846030337": {
+            "action": [
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "222222222222222222222222"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1846030337000018, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SELECT_DEST_IN_SHAPER_DO_ACTION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "ABILITY_OWNER"
+                                }
+                            ], 
+                            "sub_type": "UNIT_ENTITY_POINT"
+                        }, 
+                        {
+                            "arg_type": 100059, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        1000.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        90.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100225, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "ABILITY_OWNER"
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_ENTITY_POINT"
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        1
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_PLAYER_POINTING_POS"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_POINTS_ANGLE"
+                                }
+                            ], 
+                            "sub_type": "CONST_SECTOR_SHAPE_NEW"
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "APPLY_DAMAGE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "NONE_UNIT"
+                                        }, 
+                                        {
+                                            "arg_type": 100014, 
+                                            "args_list": [], 
+                                            "sub_type": "NONE_ABILITY"
+                                        }, 
+                                        {
+                                            "arg_type": 100205, 
+                                            "args_list": [], 
+                                            "sub_type": "ITER_DESTRUCTIBLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100064, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                10.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1846030337000025, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        null, 
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1846030337000045, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1846030337000014, 
+                    "enable": true, 
+                    "event_type": "ABILITY_PS_START"
+                }
+            ], 
+            "group_id": 134233255, 
+            "p_trigger_id": null, 
+            "trigger_id": 1846030337, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    1846030337, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                ]
+            ], 
+            "key": 134233255, 
+            "name": "134233255"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

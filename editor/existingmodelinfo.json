@@ -74,22 +74,6 @@
  {
   "__tuple__": true, 
   "items": [
-   10009, 
-   "\u5706\u5f62\u533a\u57df1", 
-   4096
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   10010, 
-   "\u5706\u5f62\u533a\u57df2", 
-   4096
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    10012, 
    "\u77e9\u5f62\u533a\u57df", 
    2048
@@ -125,6 +109,166 @@
    9999, 
    "\u521d\u59cb\u955c\u5934", 
    32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   14, 
+   "\u8def\u969c", 
+   256
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   15, 
+   "\u8def\u969c", 
+   256
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   16, 
+   "\u8def\u969c", 
+   256
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   17, 
+   "\u8def\u969c", 
+   256
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   18, 
+   "enemy", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   19, 
+   "enemy", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   20, 
+   "enemy", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   21, 
+   "enemy", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   22, 
+   "enemy", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10016, 
+   "deadly_lake", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10017, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10018, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10019, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10020, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10021, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10022, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10023, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10024, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10025, 
+   "field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   25, 
+   "tree", 
+   256
   ]
  }
 ]

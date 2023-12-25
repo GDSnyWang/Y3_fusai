@@ -8232,7 +8232,7 @@
                 ], 
                 "bp": false, 
                 "element_id": 1269346359000062, 
-                "enable": true
+                "enable": false
             }, 
             {
                 "action_type": "SET_ROLE_ALL_GAME_FUNC_ENABLE", 
@@ -8493,6 +8493,271 @@
                 "op_arg_enable": [
                     false, 
                     false, 
+                    false
+                ]
+            }, 
+            {
+                "action_type": "BIND_SKILL_ON_UI_COMP", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100014, 
+                        "args_list": [
+                            {
+                                "arg_type": 100006, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UNIT_ENTITY", 
+                                            "Player_Unit"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 11
+                            }, 
+                            {
+                                "arg_type": 100182, 
+                                "args_list": [
+                                    2
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    1
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "UNIT_ABILITY"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            "5b50f579-b08e-4fa0-a826-f383bec407fc"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1269346359000138, 
+                "enable": true
+            }, 
+            {
+                "action_type": "BIND_SKILL_ON_UI_COMP", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100014, 
+                        "args_list": [
+                            {
+                                "arg_type": 100006, 
+                                "args_list": [
+                                    [
+                                        "UNIT_ENTITY", 
+                                        "Player_Unit"
+                                    ]
+                                ], 
+                                "sub_type": 11
+                            }, 
+                            {
+                                "arg_type": 100182, 
+                                "args_list": [
+                                    2
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    2
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "UNIT_ABILITY"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            "f874c4c7-f8d4-4daf-a23e-5bc700f4f8fa"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1269346359000146, 
+                "enable": true
+            }, 
+            {
+                "action_type": "BIND_SKILL_ON_UI_COMP", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100014, 
+                        "args_list": [
+                            {
+                                "arg_type": 100006, 
+                                "args_list": [
+                                    [
+                                        "UNIT_ENTITY", 
+                                        "Player_Unit"
+                                    ]
+                                ], 
+                                "sub_type": 11
+                            }, 
+                            {
+                                "arg_type": 100182, 
+                                "args_list": [
+                                    2
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    3
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "UNIT_ABILITY"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            "e13b23ea-df5d-4732-b041-5f0b5f12e894"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1269346359000161, 
+                "enable": true
+            }, 
+            {
+                "action_type": "BIND_SKILL_ON_UI_COMP", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100014, 
+                        "args_list": [
+                            {
+                                "arg_type": 100006, 
+                                "args_list": [
+                                    [
+                                        "UNIT_ENTITY", 
+                                        "Player_Unit"
+                                    ]
+                                ], 
+                                "sub_type": 11
+                            }, 
+                            {
+                                "arg_type": 100182, 
+                                "args_list": [
+                                    2
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    4
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "UNIT_ABILITY"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            "f377f24d-aa94-4369-a56a-1f00dd804470"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1269346359000176, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_BIND_VAR", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            "7faa4263-df81-4bb5-9048-6f5267c7daf9"
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 1001555, 
+                        "args_list": [
+                            "text_bind"
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "battery"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "ANY_VAR_TO_STR"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1269346359000198, 
+                "enable": false, 
+                "op_arg": [
+                    null
+                ], 
+                "op_arg_enable": [
                     false
                 ]
             }
