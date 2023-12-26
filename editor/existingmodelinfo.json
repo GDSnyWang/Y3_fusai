@@ -106,14 +106,6 @@
  {
   "__tuple__": true, 
   "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    14, 
    "\u8def\u969c", 
    256
@@ -269,6 +261,70 @@
    25, 
    "tree", 
    256
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   41, 
+   "tree", 
+   256
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   42, 
+   "\u8def\u969c", 
+   256
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   47, 
+   "enemy", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   52, 
+   "mirror", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   54, 
+   "mirror", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   56, 
+   "mirror", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   63, 
+   "store", 
+   2
   ]
  }
 ]

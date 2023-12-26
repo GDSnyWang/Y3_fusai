@@ -324,6 +324,136 @@
             "name": "tree", 
             "type": 256, 
             "unit_id": 25
+        }, 
+        "41": {
+            "components": {
+                "attr": {}, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "height_box": {
+                    "alive_height_box_data": null, 
+                    "dead_height_box_data": null, 
+                    "heightbox_deserialize_dirty": false
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -26, 
+                                263143424
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                16, 
+                                233971712
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "enable_occlusion_perspective": false, 
+            "entity_id": 134254001, 
+            "name": "tree", 
+            "type": 256, 
+            "unit_id": 41
+        }, 
+        "42": {
+            "components": {
+                "attr": {}, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "height_box": {
+                    "alive_height_box_data": null, 
+                    "dead_height_box_data": null, 
+                    "heightbox_deserialize_dirty": false
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -1, 
+                                2770485248
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                -18, 
+                                2744000512
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            -2, 
+                            1972030902
+                        ]
+                    }
+                }
+            }, 
+            "enable_occlusion_perspective": false, 
+            "entity_id": 134277451, 
+            "name": "\u8def\u969c", 
+            "type": 256, 
+            "unit_id": 42
         }
     }
 }

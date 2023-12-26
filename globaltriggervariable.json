@@ -82,6 +82,16 @@
             }, 
             "variable_length_dict": {}
         }, 
+        "152944732": {
+            "variable_dict": {
+                "MOVER_ENTITY": {
+                    "temp": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "210653238": {
             "variable_dict": {
                 "UNIT_ENTITY": {
@@ -216,6 +226,20 @@
                 "t1": 0, 
                 "t2": 0, 
                 "unit": 0
+            }
+        }, 
+        "697639003": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "no_things": true
+                }, 
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "no_things": 0, 
+                "temp": 0
             }
         }, 
         "718082063": {
@@ -461,11 +485,17 @@
         }, 
         "1414606937": {
             "variable_dict": {
+                "ANGLE": {
+                    "ball_angle": 0.0, 
+                    "mirror_angle": 0.0
+                }, 
                 "MOVER_ENTITY": {
                     "move": 0
                 }
             }, 
             "variable_length_dict": {
+                "ball_angle": 0, 
+                "mirror_angle": 0, 
                 "move": 0
             }
         }, 
@@ -708,6 +738,16 @@
                 "temp": 0
             }
         }, 
+        "1769259098": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "no_things": true
+                }
+            }, 
+            "variable_length_dict": {
+                "no_things": 0
+            }
+        }, 
         "1785729085": {
             "variable_dict": {
                 "ANGLE": {
@@ -904,6 +944,7 @@
             "create_temp": -1, 
             "deadly_count": -1, 
             "lamp_stay": -1, 
+            "mirror_hold": -1, 
             "move_plant_count": -1, 
             "rotate": -1
         }, 
@@ -935,7 +976,8 @@
             "UI_Manager": null
         }, 
         "UNIT_ENTITY": {
-            "Player_Unit": 0
+            "Player_Unit": 0, 
+            "mirror": 0
         }, 
         "UNIT_NAME": {}
     }, 
@@ -1128,6 +1170,20 @@
                 "plant_temp", 
                 "plant_temp"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "mirror_hold", 
+                "mirror_hold"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "mirror", 
+                "mirror"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -1150,6 +1206,8 @@
         "lamp_now": 0, 
         "lamp_stay": 0, 
         "lmap_": 0, 
+        "mirror": 0, 
+        "mirror_hold": 0, 
         "move_plant_count": 0, 
         "original": 0, 
         "plant_temp": 0, 
