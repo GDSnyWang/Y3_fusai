@@ -1051,6 +1051,141 @@
             "trigger_name": "see_status", 
             "valid": true
         }, 
+        "1213100128": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ITEM_GROUP", 
+                                        "a1", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100171, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UNIT_ENTITY", 
+                                                "Player_Unit"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }
+                            ], 
+                            "sub_type": "UNIT_ITEM_GROUP"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1213100128000002, 
+                    "enable": false
+                }, 
+                {
+                    "action_type": "PICK_ITEM_DO_ACTION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100171, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UNIT_ENTITY", 
+                                                "Player_Unit"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }
+                            ], 
+                            "sub_type": "UNIT_ITEM_GROUP"
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [], 
+                                                    "sub_type": "FOR_EACH_SELECTED_ITEM"
+                                                }
+                                            ], 
+                                            "sub_type": "ANY_VAR_TO_STR"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1213100128000017, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1213100128000011, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                61
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1213100128000005, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "AWASMKFrEe62TbwP88Ol9q", 
+            "p_trigger_id": null, 
+            "trigger_id": 1213100128, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
+            "valid": true
+        }, 
         "1368014919": {
             "action": [
                 {
@@ -1687,6 +1822,33 @@
                     "bp": false, 
                     "element_id": 1838186591000032, 
                     "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ITEM_GROUP", 
+                                        "a1", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100171, 
+                            "args_list": [], 
+                            "sub_type": "UNIT_ITEM_GROUP"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1838186591000068, 
+                    "enable": true
                 }
             ], 
             "call_enabled": true, 
@@ -1999,6 +2161,13 @@
                 "items": [
                     1838186591, 
                     "\u65b0\u5efa\u89e6\u53d1\u5668"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1213100128, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668_2"
                 ]
             }
         ], 

@@ -369,6 +369,16 @@
                 "tips_size": 10
             }
         }, 
+        "1213100128": {
+            "variable_dict": {
+                "ITEM_GROUP": {
+                    "a1": []
+                }
+            }, 
+            "variable_length_dict": {
+                "a1": 0
+            }
+        }, 
         "1270726670": {
             "variable_dict": {
                 "NEW_TIMER": {
@@ -825,6 +835,16 @@
             "variable_length_dict": {
                 "temp": 0, 
                 "temp_point": 0
+            }
+        }, 
+        "1838186591": {
+            "variable_dict": {
+                "ITEM_GROUP": {
+                    "a1": []
+                }
+            }, 
+            "variable_length_dict": {
+                "a1": 0
             }
         }, 
         "1872433179": {
