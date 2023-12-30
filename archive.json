@@ -1,3 +1,31 @@
 {
-    "archive_slots": {}
+    "archive_slots": {
+        "1": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": true, 
+            "key": 1, 
+            "name": "player_status", 
+            "type": 4, 
+            "value": "{}"
+        }, 
+        "2": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": true, 
+            "key": 2, 
+            "name": "map_status", 
+            "type": 4, 
+            "value": "{}"
+        }, 
+        "3": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": true, 
+            "key": 3, 
+            "name": "things_status", 
+            "type": 4, 
+            "value": "things_status_store"
+        }
+    }
 }

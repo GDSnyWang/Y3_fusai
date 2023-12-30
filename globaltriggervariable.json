@@ -75,6 +75,39 @@
                 "skill": 0
             }
         }, 
+        "134955105": {
+            "variable_dict": {
+                "INTEGER": {
+                    "number": 0
+                }, 
+                "ITEM_NAME": {
+                    "type": 0
+                }, 
+                "STRING": {
+                    "name": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "name": 0, 
+                "number": 0, 
+                "type": 0
+            }
+        }, 
+        "142119011": {
+            "variable_dict": {
+                "ANGLE": {
+                    "angle": 0.0
+                }, 
+                "FLOAT": {
+                    "distance": 0.0
+                }, 
+                "NEW_TIMER": {}
+            }, 
+            "variable_length_dict": {
+                "angle": 0, 
+                "distance": 0
+            }
+        }, 
         "150569020": {
             "variable_dict": {
                 "FLOAT": {}, 
@@ -233,13 +266,21 @@
                 "BOOLEAN": {
                     "no_things": true
                 }, 
+                "DESTRUCTIBLE_ENTITY": {
+                    "temp_tree": 0
+                }, 
+                "INTEGER": {
+                    "length": 0
+                }, 
                 "NEW_TIMER": {
                     "temp": -1
                 }
             }, 
             "variable_length_dict": {
+                "length": 0, 
                 "no_things": 0, 
-                "temp": 0
+                "temp": 0, 
+                "temp_tree": 0
             }
         }, 
         "718082063": {
@@ -371,12 +412,22 @@
         }, 
         "1213100128": {
             "variable_dict": {
+                "INTEGER": {
+                    "temp": 0, 
+                    "temp2": 0
+                }, 
                 "ITEM_GROUP": {
                     "a1": []
+                }, 
+                "ITEM_NAME": {
+                    "sd": 0
                 }
             }, 
             "variable_length_dict": {
-                "a1": 0
+                "a1": 0, 
+                "sd": 0, 
+                "temp": 0, 
+                "temp2": 0
             }
         }, 
         "1270726670": {
@@ -939,6 +990,7 @@
     "variable_comments": {}, 
     "variable_dict": {
         "BOOLEAN": {
+            "UI_showing": false, 
             "building": false
         }, 
         "DESTRUCTIBLE_ENTITY": {
@@ -987,6 +1039,9 @@
         }, 
         "ROUND_AREA": {
             "confuse_area": 0
+        }, 
+        "SCENE_UI": {
+            "temp_UI": null
         }, 
         "SFX_ENTITY": {
             "fire_ball": 0, 
@@ -1204,12 +1259,27 @@
                 "mirror", 
                 "mirror"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "temp_UI", 
+                "temp_UI"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "UI_showing", 
+                "UI_showing"
+            ]
         }
     ], 
     "variable_length_dict": {
         "GLOBAL_BAG_MAX_NUM": 0, 
         "Player_Unit": 0, 
         "UI_Manager": 0, 
+        "UI_showing": 0, 
         "battery": 0, 
         "battery_get": 0, 
         "bias": 0, 
@@ -1234,6 +1304,7 @@
         "rotate": 0, 
         "shoot_ball": 0, 
         "temp": 0, 
+        "temp_UI": 0, 
         "temp_thing": 0, 
         "time_count": 0
     }

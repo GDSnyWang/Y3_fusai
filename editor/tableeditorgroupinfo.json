@@ -5,5 +5,33 @@
    "aa3d514b-037a-4330-8e00-63c62a0dc0d9", 
    "MOVE_STATUS"
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "b4a28fc0-2fe6-4f35-9ea9-c73bd9e00574", 
+   "things_status_store"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "493afa7c-5abd-4bb2-b3b3-35d23dc13d42", 
+   "player_status_store"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "1966a00a-ca16-4839-af99-be1cd399dc36", 
+   "test"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "260e29ca-78f6-445c-be80-9a506b167662", 
+   "plant_status_store"
+  ]
  }
 ]
