@@ -1,6 +1,7 @@
 {
+    "1": 1, 
     "_custom_": true, 
-    "_ref_": 134239133, 
+    "_ref_": 134279474, 
     "attached_ability": {
         "__tuple__": true, 
         "items": []
@@ -43,10 +44,10 @@
     "cur_charge": 0, 
     "cur_stack": 1, 
     "delete_on_discard": false, 
-    "description": -721484480, 
-    "disable_overlapping": false, 
+    "description": -1590046994, 
+    "disable_overlapping": true, 
     "discard_enable": true, 
-    "discard_when_dead": true, 
+    "discard_when_dead": false, 
     "drop_stay_time": 9999, 
     "effect_list": {}, 
     "fresnel_color": {
@@ -61,10 +62,10 @@
     "fresnel_emissive_color_strength": 1, 
     "fresnel_exp": 10, 
     "hp_max": 100, 
-    "icon": 109144, 
-    "init_stock": 5, 
-    "item_billboard_type": 0, 
-    "key": 134239133, 
+    "icon": 107108, 
+    "init_stock": 10, 
+    "item_billboard_type": 2, 
+    "key": 134279474, 
     "kv": {}, 
     "level": 1, 
     "material_alpha": 0, 
@@ -78,12 +79,12 @@
         ]
     }, 
     "material_color_intensity": 0, 
-    "max_stock": 5, 
+    "max_stock": 10, 
     "maximum_charging": 5, 
-    "maximum_stacking": 5, 
-    "model": 202138, 
+    "maximum_stacking": 100, 
+    "model": 103889, 
     "model_opacity": 1, 
-    "name": -2052561599, 
+    "name": 1669030026, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
@@ -99,13 +100,13 @@
         "items": []
     }, 
     "stack_type": 2, 
-    "start_rft": 1, 
+    "start_rft": 0.0, 
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
         "items": []
     }, 
-    "uid": "134239133", 
+    "uid": "134279474", 
     "use_base_tint_color": false, 
     "use_consume": 1, 
     "use_fresnel": 0

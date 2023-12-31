@@ -346,14 +346,6 @@
  {
   "__tuple__": true, 
   "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    5, 
    " \u6e90\u6c34", 
    32
@@ -378,9 +370,49 @@
  {
   "__tuple__": true, 
   "items": [
-   10027, 
-   "UI_test_region", 
-   4096
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10028, 
+   "main_field", 
+   2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   8, 
+   "\u6d4b\u8bd5\u79cd\u5b50", 
+   32
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9, 
+   "\u6d4b\u8bd5\u79cd\u5b50", 
+   32
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10, 
+   "\u6d4b\u8bd5\u79cd\u5b50", 
+   32
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   11, 
+   "plate", 
+   256
   ]
  }
 ]

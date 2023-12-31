@@ -325,6 +325,22 @@
                 "slot": 0
             }
         }, 
+        "766713958": {
+            "variable_dict": {
+                "DESTRUCTIBLE_ENTITY": {
+                    "little_tree": 0
+                }, 
+                "NEW_TIMER": {
+                    "temp": -1, 
+                    "temp2": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "little_tree": 0, 
+                "temp": 0, 
+                "temp2": 0
+            }
+        }, 
         "786112514": {
             "variable_dict": {
                 "DYNAMIC_TRIGGER_INSTANCE": {
@@ -995,7 +1011,8 @@
         }, 
         "DESTRUCTIBLE_ENTITY": {
             "bridge": 0, 
-            "plant_temp": 0
+            "plant_temp": 0, 
+            "seed_temp": 0
         }, 
         "FLOAT": {
             "bias": 0.0, 
@@ -1015,13 +1032,23 @@
             "bridge_count": -1, 
             "create_temp": -1, 
             "deadly_count": -1, 
+            "foresee_seed": -1, 
             "lamp_stay": -1, 
             "mirror_hold": -1, 
             "move_plant_count": -1, 
-            "rotate": -1
+            "rotate": -1, 
+            "water_test_count": -1
         }, 
         "PLAYER": {}, 
         "POINT": {
+            "UI_point": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }, 
             "original": {
                 "__tuple__": true, 
                 "items": [
@@ -1273,12 +1300,41 @@
                 "UI_showing", 
                 "UI_showing"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "foresee_seed", 
+                "foresee_seed"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "seed_temp", 
+                "seed_temp"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "UI_point", 
+                "UI_point"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "water_test_count", 
+                "water_test_count"
+            ]
         }
     ], 
     "variable_length_dict": {
         "GLOBAL_BAG_MAX_NUM": 0, 
         "Player_Unit": 0, 
         "UI_Manager": 0, 
+        "UI_point": 0, 
         "UI_showing": 0, 
         "battery": 0, 
         "battery_get": 0, 
@@ -1293,6 +1349,7 @@
         "deadly_count": 0, 
         "fire_": 0, 
         "fire_ball": 0, 
+        "foresee_seed": 0, 
         "lamp_now": 0, 
         "lamp_stay": 0, 
         "lmap_": 0, 
@@ -1302,10 +1359,12 @@
         "original": 0, 
         "plant_temp": 0, 
         "rotate": 0, 
+        "seed_temp": 0, 
         "shoot_ball": 0, 
         "temp": 0, 
         "temp_UI": 0, 
         "temp_thing": 0, 
-        "time_count": 0
+        "time_count": 0, 
+        "water_test_count": 0
     }
 }

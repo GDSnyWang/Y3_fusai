@@ -1,0 +1,33 @@
+{
+    "describe": 1757805119, 
+    "editor_res": false, 
+    "key": 202289, 
+    "map_name": "S2", 
+    "model_id": 220455, 
+    "name": 706693719, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "code_Realistic", 
+            "code_Magical", 
+            "code_Middle ages", 
+            "code_Buildings", 
+            "code_Building components", 
+            "code_Grey", 
+            "code_Stone", 
+            "code_Platform"
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/202289", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "release_hide": false, 
+    "res_identify": "all", 
+    "select_effect_scale": 0.01, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_202289"
+}

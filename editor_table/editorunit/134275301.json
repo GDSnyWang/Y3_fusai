@@ -30,7 +30,7 @@
     "attack_type": 10000, 
     "bar_show_name": 0, 
     "bar_show_scale": true, 
-    "bar_slot_size": 6, 
+    "bar_slot_size": 100, 
     "base_color_mod": 1, 
     "base_tint_color": {
         "__tuple__": true, 
@@ -180,6 +180,17 @@
             "type": 3, 
             "value": false
         }, 
+        "moving_seed": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 4, 
+            "key": "moving_seed", 
+            "prop_cls": "PBool", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 3, 
+            "value": false
+        }, 
         "status": {
             "annotation": "", 
             "desc": "", 
@@ -226,7 +237,7 @@
     "pene_phy_grow": 0.0, 
     "pene_phy_ratio": 0.0, 
     "pene_phy_ratio_grow": 0.0, 
-    "pkg_slot_size": 60, 
+    "pkg_slot_size": 100, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
