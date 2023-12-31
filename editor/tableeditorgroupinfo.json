@@ -33,5 +33,12 @@
    "260e29ca-78f6-445c-be80-9a506b167662", 
    "plant_status_store"
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "336c4b39-b3ef-4fa2-a507-df88cce39d15", 
+   "plants_status"
+  ]
  }
 ]

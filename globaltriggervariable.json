@@ -390,6 +390,16 @@
                 "time": 0
             }
         }, 
+        "856842347": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0
+            }
+        }, 
         "863993900": {
             "variable_dict": {
                 "FLOAT": {
@@ -429,21 +439,13 @@
         "1213100128": {
             "variable_dict": {
                 "INTEGER": {
-                    "temp": 0, 
-                    "temp2": 0
+                    "length": 0
                 }, 
-                "ITEM_GROUP": {
-                    "a1": []
-                }, 
-                "ITEM_NAME": {
-                    "sd": 0
-                }
+                "ITEM_GROUP": {}, 
+                "ITEM_NAME": {}
             }, 
             "variable_length_dict": {
-                "a1": 0, 
-                "sd": 0, 
-                "temp": 0, 
-                "temp2": 0
+                "length": 0
             }
         }, 
         "1270726670": {
@@ -1001,6 +1003,12 @@
                 "temp": 0, 
                 "temp2": 0
             }
+        }, 
+        "2129797226": {
+            "variable_dict": {
+                "INTEGER": {}
+            }, 
+            "variable_length_dict": {}
         }
     }, 
     "variable_comments": {}, 
@@ -1011,6 +1019,7 @@
         }, 
         "DESTRUCTIBLE_ENTITY": {
             "bridge": 0, 
+            "plant_manager": 0, 
             "plant_temp": 0, 
             "seed_temp": 0
         }, 
@@ -1328,6 +1337,13 @@
                 "water_test_count", 
                 "water_test_count"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "plant_manager", 
+                "plant_manager"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -1357,6 +1373,7 @@
         "mirror_hold": 0, 
         "move_plant_count": 0, 
         "original": 0, 
+        "plant_manager": 10, 
         "plant_temp": 0, 
         "rotate": 0, 
         "seed_temp": 0, 
