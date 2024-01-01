@@ -9,18 +9,6 @@
                 "Des"
             ], 
             [
-                "location_x", 
-                "float", 
-                "0.0", 
-                null
-            ], 
-            [
-                "location_y", 
-                "float", 
-                "0.0", 
-                null
-            ], 
-            [
                 "skills_get", 
                 "int", 
                 "0", 
@@ -33,7 +21,19 @@
                 null
             ], 
             [
-                "", 
+                null, 
+                null, 
+                null, 
+                null
+            ], 
+            [
+                null, 
+                null, 
+                null, 
+                null
+            ], 
+            [
+                null, 
                 null, 
                 null, 
                 null
@@ -189,5 +189,5 @@
         "kv_key_type": "str"
     }, 
     "table_type": 1, 
-    "tid": "493afa7c-5abd-4bb2-b3b3-35d23dc13d42"
+    "tid": "6e5148d9-9911-4b25-9fc5-76445e047ec3"
 }

@@ -117,11 +117,15 @@
         }, 
         "152944732": {
             "variable_dict": {
+                "INTEGER": {
+                    "i": 0
+                }, 
                 "MOVER_ENTITY": {
                     "temp": 0
                 }
             }, 
             "variable_length_dict": {
+                "i": 0, 
                 "temp": 0
             }
         }, 
@@ -283,6 +287,16 @@
                 "temp_tree": 0
             }
         }, 
+        "714698863": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0
+            }
+        }, 
         "718082063": {
             "variable_dict": {
                 "INTEGER": {
@@ -410,6 +424,18 @@
                 "dis": 0
             }
         }, 
+        "931967085": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0, 
+                    "num": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0, 
+                "num": 0
+            }
+        }, 
         "990195764": {
             "variable_dict": {
                 "INTEGER": {
@@ -478,6 +504,24 @@
             "variable_length_dict": {
                 "player": 0, 
                 "unit": 0
+            }
+        }, 
+        "1322942580": {
+            "variable_dict": {
+                "INTEGER": {
+                    "num": 0
+                }, 
+                "ITEM_NAME": {
+                    "item": 0
+                }, 
+                "STRING": {
+                    "get_or_lose": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "get_or_lose": 0, 
+                "item": 0, 
+                "num": 0
             }
         }, 
         "1325858865": {
@@ -1015,11 +1059,12 @@
     "variable_dict": {
         "BOOLEAN": {
             "UI_showing": false, 
-            "building": false
+            "building": false, 
+            "plant_manager_status": false
         }, 
         "DESTRUCTIBLE_ENTITY": {
             "bridge": 0, 
-            "plant_manager": 0, 
+            "plant_manager_item": 0, 
             "plant_temp": 0, 
             "seed_temp": 0
         }, 
@@ -1045,6 +1090,7 @@
             "lamp_stay": -1, 
             "mirror_hold": -1, 
             "move_plant_count": -1, 
+            "plant_manager_count": -1, 
             "rotate": -1, 
             "water_test_count": -1
         }, 
@@ -1059,6 +1105,14 @@
                 ]
             }, 
             "original": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "plant_manager_point": {
                 "__tuple__": true, 
                 "items": [
                     0, 
@@ -1084,7 +1138,8 @@
             "temp": 0
         }, 
         "TABLE": {
-            "UI_Manager": null
+            "UI_Manager": null, 
+            "files": null
         }, 
         "UNIT_ENTITY": {
             "Player_Unit": 0, 
@@ -1341,8 +1396,36 @@
         {
             "__tuple__": true, 
             "items": [
-                "plant_manager", 
-                "plant_manager"
+                "plant_manager_item", 
+                "plant_manager_item"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "plant_manager_count", 
+                "plant_manager_count"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "plant_manager_point", 
+                "plant_manager_point"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "plant_manager_status", 
+                "plant_manager_status"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "files", 
+                "files"
             ]
         }
     ], 
@@ -1363,6 +1446,7 @@
         "confuse_area": 0, 
         "create_temp": 0, 
         "deadly_count": 0, 
+        "files": 10, 
         "fire_": 0, 
         "fire_ball": 0, 
         "foresee_seed": 0, 
@@ -1373,7 +1457,10 @@
         "mirror_hold": 0, 
         "move_plant_count": 0, 
         "original": 0, 
-        "plant_manager": 10, 
+        "plant_manager_count": 10, 
+        "plant_manager_item": 10, 
+        "plant_manager_point": 10, 
+        "plant_manager_status": 10, 
         "plant_temp": 0, 
         "rotate": 0, 
         "seed_temp": 0, 

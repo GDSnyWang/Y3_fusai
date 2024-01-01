@@ -1,16 +1,13 @@
 {
-    "column_width": {
-        "0": 174, 
-        "1": 172
-    }, 
+    "column_width": {}, 
     "table_data": {
         "data": [
             [
                 "key", 
-                "things", 
-                "number", 
-                null, 
-                null, 
+                "ID", 
+                "position_x", 
+                "position_y", 
+                "angle", 
                 null, 
                 null, 
                 null, 
@@ -28,8 +25,29 @@
             ], 
             [
                 "int", 
-                "item_type", 
-                "int", 
+                "destructible_type", 
+                "float", 
+                "float", 
+                "angle", 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null
+            ], 
+            [
+                null, 
+                null, 
+                null, 
                 null, 
                 null, 
                 null, 
@@ -48,30 +66,9 @@
                 null
             ], 
             [
-                "1", 
-                134277283, 
-                "0", 
                 null, 
                 null, 
                 null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null, 
-                null
-            ], 
-            [
-                "2", 
-                134239133, 
-                "0", 
                 null, 
                 null, 
                 null, 
@@ -90,9 +87,9 @@
                 null
             ], 
             [
-                "3", 
-                134279474, 
-                "0", 
+                null, 
+                null, 
+                null, 
                 null, 
                 null, 
                 null, 
@@ -1061,5 +1058,5 @@
         ]
     }, 
     "table_type": 0, 
-    "tid": "b4a28fc0-2fe6-4f35-9ea9-c73bd9e00574"
+    "tid": "4a73b65d-209c-4985-b15a-1e6c315fb2f8"
 }

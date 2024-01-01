@@ -1,5 +1,52 @@
 [
  {
+  "name": "game_play", 
+  "key": "hVaTgKizEe6mBbwP88Ol9h", 
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "6e5148d9-9911-4b25-9fc5-76445e047ec3", 
+     "palyer"
+    ]
+   }
+  ]
+ }, 
+ {
+  "name": "\u5b58\u6863\u8868", 
+  "key": "xTIoYaibEe6UirwP88Ol9p", 
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "4a73b65d-209c-4985-b15a-1e6c315fb2f8", 
+     "decoration_status_store"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "260e29ca-78f6-445c-be80-9a506b167662", 
+     "field_status_store"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "493afa7c-5abd-4bb2-b3b3-35d23dc13d42", 
+     "player_status_store"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "b4a28fc0-2fe6-4f35-9ea9-c73bd9e00574", 
+     "things_status_store"
+    ]
+   }
+  ]
+ }, 
+ {
   "__tuple__": true, 
   "items": [
    "aa3d514b-037a-4330-8e00-63c62a0dc0d9", 
@@ -9,29 +56,8 @@
  {
   "__tuple__": true, 
   "items": [
-   "b4a28fc0-2fe6-4f35-9ea9-c73bd9e00574", 
-   "things_status_store"
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   "493afa7c-5abd-4bb2-b3b3-35d23dc13d42", 
-   "player_status_store"
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    "1966a00a-ca16-4839-af99-be1cd399dc36", 
    "test"
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   "260e29ca-78f6-445c-be80-9a506b167662", 
-   "plant_status_store"
   ]
  }, 
  {

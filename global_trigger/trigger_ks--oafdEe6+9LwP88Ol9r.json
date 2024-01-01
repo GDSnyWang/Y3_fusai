@@ -1,140 +1,104 @@
 {
-    "trigger_dict": {
-        "856842347": {
-            "action": [
-                {
-                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
-                    "args_list": [
-                        {
-                            "arg_type": 100175, 
-                            "args_list": [
-                                3
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "initiating farming system"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 856842347000035, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "FOR_INT_DO_ACTION", 
-                    "args_list": [
-                        {
-                            "arg_type": 100002, 
-                            "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "INTEGER", 
-                                        "i", 
-                                        "local"
-                                    ]
-                                }
-                            ], 
-                            "sub_type": 6
-                        }, 
-                        {
-                            "arg_type": 100002, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100002, 
-                            "args_list": [
-                                20
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100028, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "DESTRUCTIBLE_ENTITY", 
-                                                        "plant_manager"
-                                                    ]
-                                                }, 
-                                                {
-                                                    "arg_type": 100002, 
-                                                    "args_list": [
-                                                        {
-                                                            "__tuple__": true, 
-                                                            "items": [
-                                                                "INTEGER", 
-                                                                "i", 
-                                                                "local"
-                                                            ]
-                                                        }
-                                                    ], 
-                                                    "sub_type": 6
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100205, 
-                                            "args_list": [], 
-                                            "sub_type": "NONE_DEST"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 856842347000054, 
-                                    "enable": true
-                                }
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 856842347000013, 
-                    "enable": true
-                }
-            ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [], 
-            "func_category": "t_function", 
-            "func_comment": "", 
-            "func_des": "initiate farming system", 
-            "func_id": "9c2e38eea7dd11eebbd4bc0ff3c3a5f6", 
-            "func_name": "farm_init", 
-            "group_id": "ks--oafdEe6+9LwP88Ol9r", 
-            "is_func": true, 
-            "is_official_func": false, 
-            "p_trigger_id": null, 
-            "trigger_id": 856842347, 
-            "trigger_name": "farm_init", 
-            "valid": true
-        }
-    }, 
+    "trigger_dict": {}, 
     "trigger_group_info": {
         "_function_": true, 
         "_trigger_group_": true, 
         "group": [
             {
-                "__tuple__": true, 
-                "items": [
-                    856842347, 
-                    "farm_init"
-                ]
+                "_function_": true, 
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            856842347, 
+                            "farm_init"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1193541740, 
+                            "level_init"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            931967085, 
+                            "decoration_init"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1517551726, 
+                            "game_init"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            714698863, 
+                            "file_load"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            307437680, 
+                            "things_init"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1884700785, 
+                            "player_init"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1532424306, 
+                            "map_init"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "GpPqUaicEe6o57wP88Ol9t", 
+                "name": "init"
+            }, 
+            {
+                "_function_": true, 
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            6144115, 
+                            "store_file"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1322942580, 
+                            "item_event"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "MCe-4aicEe6EwrwP88Ol9i", 
+                "name": "utils"
+            }, 
+            {
+                "_function_": true, 
+                "_trigger_group_": true, 
+                "group": [], 
+                "is_sub_folder": true, 
+                "key": "DBoqcKicEe66HbwP88Ol9r", 
+                "name": "farm"
             }
         ], 
         "is_sub_folder": false, 

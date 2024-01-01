@@ -414,5 +414,77 @@
    "\u521d\u59cb\u955c\u5934", 
    32768
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10029, 
+   "field_point_1", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10030, 
+   "field_point_2", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10031, 
+   "field_point_3", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10032, 
+   "field_point_4", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10033, 
+   "field_point_5", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10034, 
+   "field_point_6", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10035, 
+   "field_point_7", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10036, 
+   "field_point_8", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10037, 
+   "field_point_9", 
+   1024
+  ]
  }
 ]
