@@ -1,0 +1,47 @@
+{
+    "trigger_dict": {}, 
+    "trigger_group_info": {
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1614323842, 
+                            "rotate_left"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            960012419, 
+                            "rotate_right"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1010344068, 
+                            "rotate_left_up"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            205037701, 
+                            "rotate_down_up"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "D-E7T6lmEe6hhLwP88Ol9t", 
+                "name": "rotate"
+            }
+        ], 
+        "is_sub_folder": true, 
+        "key": "7l0KT6llEe6W3bwP88Ol9p", 
+        "name": "utils"
+    }
+}

@@ -223,6 +223,22 @@
                 "unit": 0
             }
         }, 
+        "538075276": {
+            "variable_dict": {
+                "ANGLE": {
+                    "ball_angle": 0.0, 
+                    "mirror_angle": 0.0
+                }, 
+                "MOVER_ENTITY": {
+                    "move": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "ball_angle": 0, 
+                "mirror_angle": 0, 
+                "move": 0
+            }
+        }, 
         "568463368": {
             "variable_dict": {
                 "NEW_TIMER": {
@@ -424,6 +440,42 @@
                 "dis": 0
             }
         }, 
+        "913174657": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "on_bridge": false
+                }, 
+                "INTEGER": {
+                    "time": 0
+                }, 
+                "NEW_TIMER": {
+                    "delete_count": -1, 
+                    "detect": -1
+                }, 
+                "POINT": {
+                    "point": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "POLYGON": {
+                    "area": 0
+                }, 
+                "RECTANGLE": {}
+            }, 
+            "variable_length_dict": {
+                "area": 0, 
+                "delete_count": 0, 
+                "detect": 0, 
+                "on_bridge": 0, 
+                "point": 0, 
+                "time": 0
+            }
+        }, 
         "931967085": {
             "variable_dict": {
                 "INTEGER": {
@@ -434,6 +486,26 @@
             "variable_length_dict": {
                 "i": 0, 
                 "num": 0
+            }
+        }, 
+        "934207611": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
+        "947277942": {
+            "variable_dict": {
+                "MOVER_ENTITY": {
+                    "temp": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
             }
         }, 
         "990195764": {
@@ -464,14 +536,40 @@
         }, 
         "1213100128": {
             "variable_dict": {
-                "INTEGER": {
-                    "length": 0
+                "BOOLEAN": {
+                    "hhh": false
                 }, 
+                "INTEGER": {}, 
                 "ITEM_GROUP": {}, 
-                "ITEM_NAME": {}
+                "ITEM_NAME": {}, 
+                "MOVER_ENTITY": {
+                    "temp": 0, 
+                    "temp2": 0
+                }, 
+                "NEW_TIMER": {
+                    "detector": -1
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "temp1": 0
+                }, 
+                "SFX_ENTITY": {}
             }, 
             "variable_length_dict": {
-                "length": 0
+                "detector": 0, 
+                "hhh": 0, 
+                "temp": 0, 
+                "temp1": 0, 
+                "temp2": 0
+            }
+        }, 
+        "1269694586": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
             }
         }, 
         "1270726670": {
@@ -568,16 +666,6 @@
                 "z": 0
             }
         }, 
-        "1368014919": {
-            "variable_dict": {
-                "MOVER_ENTITY": {
-                    "temp": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "temp": 0
-            }
-        }, 
         "1393229841": {
             "variable_dict": {
                 "DESTRUCTIBLE_ENTITY": {
@@ -606,12 +694,32 @@
                 "unit": 0
             }
         }, 
+        "1403863161": {
+            "variable_dict": {
+                "DESTRUCTIBLE_ENTITY": {}, 
+                "FLOAT": {}, 
+                "POINT": {
+                    "temp_point": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "variable_length_dict": {
+                "temp_point": 0
+            }
+        }, 
         "1414606937": {
             "variable_dict": {
                 "ANGLE": {
                     "ball_angle": 0.0, 
                     "mirror_angle": 0.0
                 }, 
+                "DESTRUCTIBLE_ENTITY": {}, 
                 "MOVER_ENTITY": {
                     "move": 0
                 }
@@ -650,6 +758,55 @@
                 "store unit": 0, 
                 "t": 0, 
                 "unit": 0
+            }
+        }, 
+        "1431249024": {
+            "variable_dict": {
+                "ANGLE": {
+                    "angel": 0.0
+                }, 
+                "BOOLEAN": {
+                    "shift": false
+                }, 
+                "FLOAT": {
+                    "acc_ratio": 0.0, 
+                    "distance": 0.0, 
+                    "tempx_1": 0.0, 
+                    "tempx_2": 0.0, 
+                    "tempy_1": 0.0, 
+                    "tempy_2": 0.0
+                }, 
+                "INTEGER": {
+                    "x": 0, 
+                    "y": 0
+                }, 
+                "POINT": {
+                    "destination": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "STRING": {
+                    "status": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "acc_ratio": 0, 
+                "angel": 0, 
+                "destination": 0, 
+                "distance": 0, 
+                "shift": 0, 
+                "status": 0, 
+                "tempx_1": 0, 
+                "tempx_2": 0, 
+                "tempy_1": 0, 
+                "tempy_2": 0, 
+                "x": 0, 
+                "y": 0
             }
         }, 
         "1435127870": {
@@ -691,6 +848,16 @@
                 "tempx_2": 0, 
                 "tempy_1": 0, 
                 "tempy_2": 0
+            }
+        }, 
+        "1465589888": {
+            "variable_dict": {
+                "ROUND_AREA": {
+                    "temp": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
             }
         }, 
         "1496309785": {
@@ -744,6 +911,16 @@
                 "unit group": 0
             }
         }, 
+        "1562538121": {
+            "variable_dict": {
+                "INTEGER": {
+                    "count": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "count": 0
+            }
+        }, 
         "1585119271": {
             "variable_dict": {
                 "INTEGER": {
@@ -774,6 +951,20 @@
                 "store unit": 0, 
                 "t": 0, 
                 "unit": 0
+            }
+        }, 
+        "1639985277": {
+            "variable_dict": {
+                "FLOAT": {
+                    "time": -1.0
+                }, 
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0, 
+                "time": 0
             }
         }, 
         "1665630250": {
@@ -952,12 +1143,16 @@
         }, 
         "1838186591": {
             "variable_dict": {
+                "FLOAT": {
+                    "g": 0.0
+                }, 
                 "ITEM_GROUP": {
                     "a1": []
                 }
             }, 
             "variable_length_dict": {
-                "a1": 0
+                "a1": 0, 
+                "g": 0
             }
         }, 
         "1872433179": {
@@ -972,6 +1167,37 @@
             "variable_length_dict": {
                 "item": 0, 
                 "player": 0
+            }
+        }, 
+        "1940676728": {
+            "variable_dict": {
+                "FLOAT": {
+                    "size": 0.0
+                }, 
+                "INTEGER": {
+                    "count": 0
+                }, 
+                "NEW_TIMER": {
+                    "temp": -1, 
+                    "temp2": -1
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "area_effect": 0, 
+                    "flower": 0
+                }, 
+                "ROUND_AREA": {
+                    "area": 0
+                }, 
+                "STRING": {}
+            }, 
+            "variable_length_dict": {
+                "area": 0, 
+                "area_effect": 0, 
+                "count": 0, 
+                "flower": 0, 
+                "size": 0, 
+                "temp": 0, 
+                "temp2": 0
             }
         }, 
         "2010271789": {
@@ -1124,7 +1350,7 @@
         "PROJECTILE_ENTITY": {
             "confuse_": 0, 
             "fire_": 0, 
-            "lmap_": 0, 
+            "lamp_effect": 0, 
             "shoot_ball": 0
         }, 
         "ROUND_AREA": {
@@ -1277,8 +1503,8 @@
         {
             "__tuple__": true, 
             "items": [
-                "lmap_", 
-                "lmap_"
+                "lamp_effect", 
+                "lamp_effect"
             ]
         }, 
         {
@@ -1450,9 +1676,9 @@
         "fire_": 0, 
         "fire_ball": 0, 
         "foresee_seed": 0, 
+        "lamp_effect": 0, 
         "lamp_now": 0, 
         "lamp_stay": 0, 
-        "lmap_": 0, 
         "mirror": 0, 
         "mirror_hold": 0, 
         "move_plant_count": 0, 

@@ -86,6 +86,34 @@
                             1322942580, 
                             "item_event"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1785729085, 
+                            "player_move"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            947277942, 
+                            "fall_down"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1639985277, 
+                            "forbid_move"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            114286718, 
+                            "allow_move"
+                        ]
                     }
                 ], 
                 "is_sub_folder": true, 
@@ -99,6 +127,57 @@
                 "is_sub_folder": true, 
                 "key": "DBoqcKicEe66HbwP88Ol9r", 
                 "name": "farm"
+            }, 
+            {
+                "_function_": true, 
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1940676728, 
+                            "confuse"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1403863161, 
+                            "foresee_bridge"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1269694586, 
+                            "attack"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            934207611, 
+                            "lamp"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1150075019, 
+                            "lamp_end"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            538075276, 
+                            "shoot"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "o58N8KlNEe6pAbwP88Ol9p", 
+                "name": "skills"
             }
         ], 
         "is_sub_folder": false, 

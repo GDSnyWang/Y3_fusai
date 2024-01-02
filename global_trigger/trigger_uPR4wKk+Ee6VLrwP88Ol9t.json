@@ -1,0 +1,224 @@
+{
+    "trigger_dict": {}, 
+    "trigger_group_info": {
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1665519758, 
+                                    "enter_deadly_region"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1933963407, 
+                                    "leave_deadly_region"
+                                ]
+                            }
+                        ], 
+                        "key": "Iin6z6ltEe6zzrwP88Ol9t", 
+                        "name": "deadly_region"
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            454918261, 
+                            "main_loop"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1367109750, 
+                            "fall_down"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            775655565, 
+                            "store_the_file"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            326148240, 
+                            "lose_heart"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "vT4JT6k+Ee61ZrwP88Ol9m", 
+                "name": "game_play"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [], 
+                "is_sub_folder": true, 
+                "key": "5Dt-z6lLEe6laLwP88Ol9k", 
+                "name": "UI"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [], 
+                "is_sub_folder": true, 
+                "key": "7jiRLqlLEe6fwbwP88Ol9h", 
+                "name": "farm"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2056630391, 
+                            "use_skill"
+                        ]
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1740656773, 
+                                    "to_confuse"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    415916166, 
+                                    "to_bridge"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    751460487, 
+                                    "to_attack"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1187668104, 
+                                    "to_lamp"
+                                ]
+                            }
+                        ], 
+                        "key": "9fcMHqlqEe6og7wP88Ol9n", 
+                        "name": "change_skill"
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1427705982, 
+                                    "bridge_up"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1863913599, 
+                                    "bridge_down"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    913174657, 
+                                    "create_bridge"
+                                ]
+                            }
+                        ], 
+                        "key": "5rztAKlrEe6-Q7wP88Ol9t", 
+                        "name": "bridge"
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1562538121, 
+                                    "battery_reset"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    354578570, 
+                                    "battery_lose"
+                                ]
+                            }
+                        ], 
+                        "key": "llKAcKluEe6vjLwP88Ol9v", 
+                        "name": "battery"
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "Hjv6wKlMEe6zqLwP88Ol9j", 
+                "name": "skills"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1614323842, 
+                                    "rotate_left"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    960012419, 
+                                    "rotate_right"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1010344068, 
+                                    "rotate_left_up"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    205037701, 
+                                    "rotate_down_up"
+                                ]
+                            }
+                        ], 
+                        "key": "D-E7T6lmEe6hhLwP88Ol9t", 
+                        "name": "rotate"
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "7l0KT6llEe6W3bwP88Ol9p", 
+                "name": "utils"
+            }
+        ], 
+        "is_sub_folder": false, 
+        "key": "uPR4wKk+Ee6VLrwP88Ol9t", 
+        "name": "final"
+    }
+}

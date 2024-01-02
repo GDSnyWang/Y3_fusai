@@ -9,39 +9,45 @@
                 "Des"
             ], 
             [
-                "skills_get", 
-                "int", 
-                "0", 
+                "last_status", 
+                "string", 
+                "idle", 
                 null
             ], 
             [
-                "skills_now", 
-                "int", 
-                "0", 
+                "last_angle", 
+                "angle", 
+                "0.0", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "move_available", 
+                "bool", 
+                "true", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "skill_available", 
+                "bool", 
+                "true", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "building_bridge", 
+                "bool", 
+                "false", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "on_bridge", 
+                "bool", 
+                "false", 
+                null
+            ], 
+            [
+                "on_deadle_region", 
+                "bool", 
+                "false", 
                 null
             ], 
             [

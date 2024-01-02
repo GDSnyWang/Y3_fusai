@@ -410,14 +410,6 @@
  {
   "__tuple__": true, 
   "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    10029, 
    "field_point_1", 
    1024
@@ -485,6 +477,30 @@
    10037, 
    "field_point_9", 
    1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10038, 
+   "test_point_1", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10039, 
+   "\u5706\u5f62\u533a\u57df", 
+   4096
   ]
  }
 ]
