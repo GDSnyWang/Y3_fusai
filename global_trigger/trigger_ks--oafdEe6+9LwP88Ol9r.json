@@ -123,7 +123,15 @@
             {
                 "_function_": true, 
                 "_trigger_group_": true, 
-                "group": [], 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            755695765, 
+                            "get_closest"
+                        ]
+                    }
+                ], 
                 "is_sub_folder": true, 
                 "key": "DBoqcKicEe66HbwP88Ol9r", 
                 "name": "farm"

@@ -129,6 +129,16 @@
                 "temp": 0
             }
         }, 
+        "199921823": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0
+            }
+        }, 
         "210653238": {
             "variable_dict": {
                 "UNIT_ENTITY": {
@@ -143,6 +153,16 @@
                 "unit_group": 0
             }
         }, 
+        "302829729": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "no_things": true
+                }
+            }, 
+            "variable_length_dict": {
+                "no_things": 0
+            }
+        }, 
         "333193219": {
             "variable_dict": {
                 "BOOLEAN": {
@@ -151,6 +171,16 @@
             }, 
             "variable_length_dict": {
                 "is_bag_open": 0
+            }
+        }, 
+        "344428695": {
+            "variable_dict": {
+                "INTEGER": {
+                    "closest_single_field": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "closest_single_field": 0
             }
         }, 
         "366354479": {
@@ -165,6 +195,26 @@
             "variable_length_dict": {
                 "player": 0, 
                 "store unit": 0
+            }
+        }, 
+        "454918261": {
+            "variable_dict": {
+                "INTEGER": {
+                    "closest_single_field": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "closest_single_field": 0
+            }
+        }, 
+        "462188696": {
+            "variable_dict": {
+                "INTEGER": {
+                    "closest_single_field": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "closest_single_field": 0
             }
         }, 
         "503767069": {
@@ -193,6 +243,16 @@
             "variable_length_dict": {
                 "last_main_unit": 0, 
                 "unit_group": 0
+            }
+        }, 
+        "525938838": {
+            "variable_dict": {
+                "INTEGER": {
+                    "closest_single_field": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "closest_single_field": 0
             }
         }, 
         "529002559": {
@@ -353,6 +413,22 @@
                 "now_column": 0, 
                 "now_row": 0, 
                 "slot": 0
+            }
+        }, 
+        "755695765": {
+            "variable_dict": {
+                "FLOAT": {
+                    "min_distance": 0.0
+                }, 
+                "INTEGER": {
+                    "i": 0, 
+                    "target": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0, 
+                "min_distance": 0, 
+                "target": 0
             }
         }, 
         "766713958": {
@@ -560,6 +636,16 @@
                 "temp": 0, 
                 "temp1": 0, 
                 "temp2": 0
+            }
+        }, 
+        "1251188891": {
+            "variable_dict": {
+                "INTEGER": {
+                    "closest_single_field": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "closest_single_field": 0
             }
         }, 
         "1269694586": {
@@ -1119,6 +1205,16 @@
                 "y": 0
             }
         }, 
+        "1804644506": {
+            "variable_dict": {
+                "INTEGER": {
+                    "closest_single_field": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "closest_single_field": 0
+            }
+        }, 
         "1836290134": {
             "variable_dict": {
                 "INTEGER": {}, 
@@ -1302,6 +1398,8 @@
             "GLOBAL_BAG_MAX_NUM": 0, 
             "battery": 5, 
             "lamp_now": 0, 
+            "num_of_decoration": 0, 
+            "num_of_single_field": 9, 
             "time_count": 0
         }, 
         "ITEM_ENTITY": {
@@ -1316,7 +1414,6 @@
             "lamp_stay": -1, 
             "mirror_hold": -1, 
             "move_plant_count": -1, 
-            "plant_manager_count": -1, 
             "rotate": -1, 
             "water_test_count": -1
         }, 
@@ -1357,6 +1454,7 @@
             "confuse_area": 0
         }, 
         "SCENE_UI": {
+            "plant_manager_UI": null, 
             "temp_UI": null
         }, 
         "SFX_ENTITY": {
@@ -1629,13 +1727,6 @@
         {
             "__tuple__": true, 
             "items": [
-                "plant_manager_count", 
-                "plant_manager_count"
-            ]
-        }, 
-        {
-            "__tuple__": true, 
-            "items": [
                 "plant_manager_point", 
                 "plant_manager_point"
             ]
@@ -1652,6 +1743,27 @@
             "items": [
                 "files", 
                 "files"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "num_of_single_field", 
+                "num_of_single_field"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "num_of_decoration", 
+                "num_of_decoration"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "plant_manager_UI", 
+                "plant_manager_UI"
             ]
         }
     ], 
@@ -1682,8 +1794,10 @@
         "mirror": 0, 
         "mirror_hold": 0, 
         "move_plant_count": 0, 
+        "num_of_decoration": 0, 
+        "num_of_single_field": 0, 
         "original": 0, 
-        "plant_manager_count": 10, 
+        "plant_manager_UI": 10, 
         "plant_manager_item": 10, 
         "plant_manager_point": 10, 
         "plant_manager_status": 10, 

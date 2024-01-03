@@ -7,27 +7,6 @@
                 "_trigger_group_": true, 
                 "group": [
                     {
-                        "_trigger_group_": true, 
-                        "group": [
-                            {
-                                "__tuple__": true, 
-                                "items": [
-                                    1665519758, 
-                                    "enter_deadly_region"
-                                ]
-                            }, 
-                            {
-                                "__tuple__": true, 
-                                "items": [
-                                    1933963407, 
-                                    "leave_deadly_region"
-                                ]
-                            }
-                        ], 
-                        "key": "Iin6z6ltEe6zzrwP88Ol9t", 
-                        "name": "deadly_region"
-                    }, 
-                    {
                         "__tuple__": true, 
                         "items": [
                             454918261, 
@@ -54,6 +33,34 @@
                             326148240, 
                             "lose_heart"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            302829729, 
+                            "move_decoration"
+                        ]
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1665519758, 
+                                    "enter_deadly_region"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1933963407, 
+                                    "leave_deadly_region"
+                                ]
+                            }
+                        ], 
+                        "key": "Iin6z6ltEe6zzrwP88Ol9t", 
+                        "name": "deadly_region"
                     }
                 ], 
                 "is_sub_folder": true, 
@@ -69,7 +76,113 @@
             }, 
             {
                 "_trigger_group_": true, 
-                "group": [], 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1382883474, 
+                            "get_in_field"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            27234451, 
+                            "leave_field"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1019310228, 
+                            "farming"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            199921823, 
+                            "growing_record"
+                        ]
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    525938838, 
+                                    "water"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    344428695, 
+                                    "manure"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    462188696, 
+                                    "shovel"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1217241241, 
+                                    "preplant"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1804644506, 
+                                    "use_light_stone"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1251188891, 
+                                    "harvest"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1185239196, 
+                                    "seed_info"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    631697565, 
+                                    "seed_info_close"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    749236382, 
+                                    "show_another_seed_info"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    118038688, 
+                                    "plant_seed"
+                                ]
+                            }
+                        ], 
+                        "key": "vwuDAKoSEe6jm7wP88Ol9i", 
+                        "name": "UI_operation"
+                    }
+                ], 
                 "is_sub_folder": true, 
                 "key": "7jiRLqlLEe6fwbwP88Ol9h", 
                 "name": "farm"

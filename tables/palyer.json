@@ -51,21 +51,21 @@
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "on_field", 
+                "bool", 
+                "false", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "farming", 
+                "bool", 
+                "false", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "closest_single_field", 
+                "int", 
+                "0", 
                 null
             ], 
             [
