@@ -3940,8 +3940,15 @@
         ], 
         "call_enabled": true, 
         "condition": [], 
-        "enabled": true, 
-        "event": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [], 
+                "element_id": 614756412000209, 
+                "enable": true, 
+                "event_type": "SELECT_ITEM_EVENT"
+            }
+        ], 
         "group_id": 0, 
         "p_trigger_id": null, 
         "trigger_id": 614756412, 

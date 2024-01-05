@@ -1064,52 +1064,7 @@
                 }
             ], 
             "call_enabled": true, 
-            "condition": [
-                {
-                    "args_list": [
-                        {
-                            "arg_type": 100001, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100006, 
-                                    "args_list": [
-                                        [
-                                            "UNIT_ENTITY", 
-                                            "Player_Unit"
-                                        ]
-                                    ], 
-                                    "sub_type": 11
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "moving_plant"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": "GET_BOOLEAN_KV"
-                        }, 
-                        {
-                            "arg_type": 100035, 
-                            "args_list": [
-                                "=="
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100001, 
-                            "args_list": [
-                                false
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "condition_type": "BOOL_COMPARE", 
-                    "element_id": 302829729000002, 
-                    "enable": true
-                }
-            ], 
+            "condition": [], 
             "enabled": false, 
             "event": [
                 {
